@@ -9,6 +9,7 @@ public static void main(String[] args) {
 	f.wash();       
 	
 //	f.makeJuice();        //not possible but use downcast
+	((Apple)f).makeJuice();
 	
 	f.fee();
 	
